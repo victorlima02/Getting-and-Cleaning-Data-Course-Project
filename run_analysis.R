@@ -1,0 +1,6 @@
+#source('scripts/downloadData.R')
+source('scripts/mergeData.R')
+source('scripts/filterColumns.R')
+source('scripts/descriptiveNames.R')
+source('scripts/descriptiveVariableNames.R')
+source('scripts/tidy.R')

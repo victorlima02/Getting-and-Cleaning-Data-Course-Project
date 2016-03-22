@@ -1,0 +1,10 @@
+tmpNames <- names(dta)
+tmpNames <- gsub("^t", "Time", tmpNames)
+tmpNames <- gsub("^f", "Frequency", tmpNames)
+tmpNames <- gsub("Acc", "Accelerometer", tmpNames)
+tmpNames <- gsub("Gyro", "Gyroscope", tmpNames)
+tmpNames <- gsub("Mag", "Magnitude", tmpNames)
+tmpNames <- gsub("BodyBody", "Body", tmpNames)
+tmpNames <- gsub("-std\\(\\)", "Std", tmpNames)
+tmpNames <- gsub("-mean\\(\\)", "Mean", tmpNames)
+names(dta) <- tmpNames 
