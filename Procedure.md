@@ -60,7 +60,7 @@ In our process we try to translate those files into instances for specific varia
 
 Although the other sets are more obscure, we can obtain a clear view of their meaning be noticing that “features.txt” and “activity_labels.txt” contain sets of variable names, while the other files contain values. X files indicate Features and Y files indicate activities.
 
-In summary, in X, we have values of features. In Y we have activity labels. I sort that X contains activities in Y as performed by a subject; thus, X=F(Y) given a subject.
+In summary, in X, we have values of features. In Y we have activity labels. In sort that X contains activities in Y as performed by a subject; thus, X=F(Y) given a subject.
 
 From the dataset's README.txt file:
 
@@ -174,7 +174,8 @@ Step 4: Appropriately labeling the data set with descriptive variable names.
 ##Details
 
 From the features_info.txt file:
-	- Prefix 't' to denotes time;
+
+	- Prefix 't' denotes time;
 	- 'f' indicates frequency domain signals;
 	- Acc denotes accelerometer;
 	- Gyro indicates gyroscope;
